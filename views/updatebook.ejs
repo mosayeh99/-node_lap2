@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <form action="/updatebook" method="post" class="add-book-sec">
+        <input type="text" name="id" value="<%= BookUpdateId %>" hidden>
+        <input type="text" name="book" value="<%= BookUpdateName %>" placeholder="Book Name">
+        <input type="text" name="author" value="<%= BookUpdateAuthor %>" placeholder="Author Name">
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>

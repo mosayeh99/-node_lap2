@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.search-sec {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.search-sec input {
+    flex: 3;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    outline: none;
+    caret-color: #777;
+}
+
+.search-sec input[type="submit"] {
+    flex: 1;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 16px;
+}
+
+.display-books-sec {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.display-books-sec .books-log .books-head {
+    display: flex;
+    background-color: #eee;
+    padding: 15px;
+    text-align: center;
+}
+
+.display-books-sec .books-log span {
+    flex: 3;
+}
+
+.display-books-sec .books-log  span:first-child,
+.display-books-sec .del-btn,
+.display-books-sec .update-btn {
+    flex: 1 !important;
+}
+
+.display-books-sec .book-item .del-btn a,
+.display-books-sec .book-item .update-btn a {
+    color: dodgerblue;
+}
+
+.display-books-sec .books-log .books-content .book-item {
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.add-book-sec {
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-book-sec input {
+    width: 100%;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 5px;
+    outline: none;
+    caret-color: #777;
+}
+
+.add-book-sec input[type="submit"] {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 16px;
+}
+
